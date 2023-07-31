@@ -1,0 +1,70 @@
+/* FullCart.css */
+.custom-container {
+  margin: 3rem;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.custom-row {
+  display: flex;
+  align-items: center;
+}
+
+.custom-table {
+  border: 1px solid #ccc;
+  width: 90%;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  color: #333;
+}
+
+.custom-table th {
+  font-weight: bold;
+  color: #333;
+}
+
+.custom-table td {
+  color: #888;
+}
+
+.btn-wrapper {
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .custom-row {
+    flex-direction: column;
+  }
+
+  .col-8 {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .custom-table img {
+    max-height: 200px;
+  }
+}
+
+.empty-cart-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-size: 18px;
+  color: #666;
+}

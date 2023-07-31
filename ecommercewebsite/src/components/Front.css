@@ -1,0 +1,39 @@
+/* Front.css */
+#frontstyle {
+  background-image: url("src/images/women/pexels-mart-production-9558900.jpg");
+  background-color: #c5c5c5f0; /* Fallback background color */
+  background-blend-mode: overlay; /* Blend the background image with the background color */
+  padding: 0;
+}
+
+.front-row {
+  display: flex;
+  align-items: center;
+}
+
+.front-content {
+  padding: 4rem;
+}
+
+.front-content h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.front-content p {
+  color: #888;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#btn-wrapper {
+  margin-top: 2rem;
+}
+
+#frontimg {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

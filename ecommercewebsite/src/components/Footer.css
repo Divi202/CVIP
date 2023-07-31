@@ -1,0 +1,15 @@
+.nav {
+  --bs-nav-link-color: black;
+  --bs-nav-link-hover-color: grey;
+  --bs-nav-link-disabled-color: var(--bs-secondary-color);
+}
+.footer {
+  color: white;
+  background-color: #3d3939;
+  padding-top: 2em;
+}
+
+.form-control {
+  display: inline;
+  width: 30em;
+}

@@ -1,0 +1,34 @@
+#usernameEmail,
+#phoneNo,
+#additionalDetails,
+#coupon {
+  width: 46em;
+}
+#firstName,
+#houseNoAndStreetName {
+  width: 21em;
+  margin-right: 2em;
+}
+#lastName,
+#apartmentOptional {
+  width: 21em;
+  margin-left: 2em;
+}
+#country {
+  width: 46em;
+}
+
+#townCity,
+#state,
+#zipCode {
+  display: inline !important ;
+  width: 14em;
+  margin-right: 2em;
+}
+
+.cart-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  color: #333;
+}

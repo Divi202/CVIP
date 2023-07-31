@@ -1,0 +1,43 @@
+/* Offer.css */
+#offer {
+  background-image: url("D:\Internship Projects (CodersCave)\Phase1_Golden Task\ecommercewebsite\src\images\offer_image.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.editing {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.offer-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow for better visibility on the photo */
+}
+
+.offer-description {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow for better visibility on the photo */
+}
+
+.shop-now-button {
+  background-color: rgb(33, 32, 32);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.shop-now-button:hover {
+  background-color: grey;
+}
