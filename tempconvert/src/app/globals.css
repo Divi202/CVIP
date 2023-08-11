@@ -1,0 +1,16 @@
+body {
+  background-color: #fce4ec;
+}
+
+body h1 {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-family: cursive;
+  font-weight: bold;
+  background-color: #fce4ec;
+}
+
+html {
+  background-color: #fce4ec;
+}
